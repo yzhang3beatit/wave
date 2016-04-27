@@ -1,6 +1,7 @@
 # wave
 A python tool to calculate UT coverage of new changed C/C++ codes
-
+--
+[![Build Status](https://travis-ci.org/yzhang3beatit/wave.svg?branch=master)](https://travis-ci.org/yzhang3beatit/wave)
 
 ### 1. How to generate diff file ?
 
