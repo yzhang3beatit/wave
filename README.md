@@ -9,7 +9,7 @@ other diff files, you can modify 'class Diffs' in source codes.
 
 ### 2. How to generate gcov files ?
 #### Step 1. Adding `-fprofile-arcs -ftest-coverage` in gcc compiling flag
-#### Step 2. Run `gcov <source codes filename>.c` in source code folder
+#### Step 2. Run `gcov <source codes filename>` in source code folder
 
 ### 3. How to use Wave ?
 
