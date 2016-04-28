@@ -1,6 +1,7 @@
 import sys
 import os
 import re
+from types import MethodType
 
 class DxMmlItem:
 
