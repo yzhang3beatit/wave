@@ -160,7 +160,7 @@ class Diffs(DxMmlDict):
         
     
     def _get_filename(self, str_line):
-        pattern = re.compile('diff\s--git\sa(.+)\sb(.+)')
+        pattern = re.compile(r'diff\s--git\sa(.+)\sb(.+)')
         match = pattern.match(str_line)
         if match:
             return match.groups()[1].split('/')[-1], match.groups()[1]           
